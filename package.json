@@ -1,20 +1,23 @@
 {
   "name": "medium-editor-colorpicker-buttons-jp",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "./dist/medium-editor-colorpicker-buttons.min.js",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.19"
+  },
   "devDependencies": {
-    "css-loader": "^0.28.0",
-    "lodash.merge": "^4.6.0",
-    "standard-version": "^4.0.0",
+    "css-loader": "^0.28.11",
+    "flexi-color-picker": "^1.0.1",
+    "lodash.merge": "^4.6.2",
+    "standard-version": "^4.4.0",
     "style-loader": "^0.16.1",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.1",
-    "ts-loader": "^2.0.3",
-    "typescript": "^2.2.2",
-    "uglifyjs-webpack-plugin": "^0.4.2",
-    "webpack": "^2.3.3"
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.9.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^2.7.0"
   },
   "scripts": {
     "release": "git add . && ./node_modules/.bin/standard-version -a",
