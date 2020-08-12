@@ -8,7 +8,7 @@ import {
 export const getTextColorButtonClass = (Form: IMediumEditorForm<IForm>) => {
 	return class TextColorButtonClass extends getColorPickerFormAbstractClass(Form) implements IColorPickerButtonProperties {
 		name = 'textcolor';
-		contentDefault = '<b><u>A</u></b>';
+		contentDefault = '<b><u>色</u></b>';
 		aria = 'text color';
 		action = 'text-color';
 		tagNames = ['font'];

@@ -1,8 +1,7 @@
 {
-  "name": "medium-editor-colorpicker-buttons",
-  "version": "0.0.4",
+  "name": "medium-editor-colorpicker-buttons-jp",
+  "version": "0.0.1",
   "main": "./dist/medium-editor-colorpicker-buttons.min.js",
-  "author": "KonstantinKai",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -27,9 +26,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/KonstantinKai/medium-editor-colorpicker-buttons"
+    "url": "https://github.com/banchojp/medium-editor-colorpicker-buttons-jp"
   },
   "bugs": {
-    "url": "https://github.com/KonstantinKai/medium-editor-colorpicker-buttons/issues"
+    "url": "https://github.com/banchojp/medium-editor-colorpicker-buttons-jp/issues"
   }
 }
