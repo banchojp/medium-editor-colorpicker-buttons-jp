@@ -1,6 +1,6 @@
 {
   "name": "medium-editor-colorpicker-buttons-jp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/medium-editor-colorpicker-buttons.min.js",
   "license": "MIT",
   "dependencies": {

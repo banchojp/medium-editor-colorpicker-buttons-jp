@@ -684,7 +684,7 @@ exports.getTextColorButtonClass = function (Form) {
         function TextColorButtonClass() {
             var _this = _super !== null && _super.apply(this, arguments) || this;
             _this.name = 'textcolor';
-            _this.contentDefault = '<b><u>色</u></b>';
+            _this.contentDefault = '<b>色</b>';
             _this.aria = 'text color';
             _this.action = 'text-color';
             _this.tagNames = ['font'];
@@ -1292,7 +1292,7 @@ exports.get = function (MediumEditor) {
     return {
         ColorPickerFormAbstractClass: ColorPickerFormAbstractClass,
         TextColorButtonClass: TextColorButtonClass,
-        version: "0.0.2"
+        version: "0.0.4"
     };
 };
 
